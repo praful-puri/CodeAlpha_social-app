@@ -22,10 +22,10 @@ export default function Register() {
         </div>
         <div className="loginRight">
           <div className="loginBox">
-            <input placeholder="Username" className="loginInput" />
-            <input placeholder="Email" className="loginInput" />
-            <input placeholder="Password" className="loginInput" />
-            <input placeholder="Password Again" className="loginInput" />
+            <input type="text" placeholder="Username" className="loginInput" />
+            <input type="text" placeholder="Email" className="loginInput" />
+            <input type="password" placeholder="Password" className="loginInput" />
+            <input type="password" placeholder="Password Again" className="loginInput" />
             <button onClick={collectData} className="loginButton">Sign Up</button>
             <button onClick={collectData} className="loginRegisterButton">
               Log into Account
